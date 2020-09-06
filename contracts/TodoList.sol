@@ -3,7 +3,7 @@ pragma solidity ^0.7.0;
 
 contract TodoList {
   uint public taskCount = 0;
-  uint public taskCountXX = 0;
+  uint public taskCountX = 100;
 
   struct Task {
     uint id;
