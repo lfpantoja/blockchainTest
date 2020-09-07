@@ -1,11 +1,8 @@
 //pragma solidity ^0.5.0;
 pragma solidity ^0.7.0;
 
-//cambio 
-//edt
 contract TodoList {
   uint public taskCount = 0;
-  uint public taskCountX = 0;
 
   struct Task {
     uint id;
